@@ -1,3 +1,19 @@
+# SlowWebApi branch changes
+
+This is a fork of https://github.com/dotnet-architecture/eShopOnWeb.
+
+The changes in this branch introduce a slow web API that the site's main page will call into. 
+
+To run:
+1. Right click on the solution and bring up properties
+2. Under 'Startup Project' -
+    * Change to multiple startup projects
+    * Change the 'Web' project to 'Start'
+    * Change the 'WebApi' project to 'Start without debugging'
+
+There is more info below if you want to change the project to run against a real database.
+
+
 # Microsoft eShopOnWeb ASP.NET Core Reference Application
 
 Sample ASP.NET Core reference application, powered by Microsoft, demonstrating a single-process (monolithic) application architecture and deployment model. If you're new to .NET development, read the [Getting Started for Beginners](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners) guide.

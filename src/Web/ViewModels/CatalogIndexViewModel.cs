@@ -11,5 +11,7 @@ namespace Microsoft.eShopWeb.Web.ViewModels
         public int? BrandFilterApplied { get; set; }
         public int? TypesFilterApplied { get; set; }
         public PaginationInfoViewModel PaginationInfo { get; set; }
+
+        public string TommorowTemp { get; set; } = "<Unknown>";
     }
 }

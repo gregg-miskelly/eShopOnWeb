@@ -38,6 +38,11 @@
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\WebApi\WeatherForecast.cs">
+      <Link>WebApi\WeatherForecast.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
